@@ -1,0 +1,38 @@
+.image{
+    width: 300px;
+    height: 300px;
+}
+.btn{
+    font-size: 20px;
+    position: absolute;
+    top:200px;
+    left:100px;
+    padding: 10px 20px;
+    background:transparent;
+    border: none;
+    display: none;
+    cursor: pointer;
+    }
+.productsCard-container{
+    width: 300px;
+    height: 350px;
+    position: relative;
+    margin: 20px 10px;
+    
+}
+.productsCard-content{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.productsCard-container:hover .inverted{
+    display: block;
+    background-color: aliceblue;
+    color: black;
+}
+.name{
+    flex:90%;
+    font-size: 20px;
+    font-weight: 200;
+    }
